@@ -1,3 +1,5 @@
+__author__ = 'ipreacher'
+
 from PIL import Image, ImageDraw, ImageFont
 
 def add_my_site(img):

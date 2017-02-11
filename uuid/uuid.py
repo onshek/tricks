@@ -1,3 +1,5 @@
+__author__ = 'ipreacher'
+
 import uuid
 
 uuids = []
