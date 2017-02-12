@@ -2,7 +2,7 @@ __author__ = 'ipreacher'
 
 import zhihuapi as api
 
-with open('/Users/wonderful/Desktop/cookie') as f:
+with open('cookie') as f:
     api.cookie(f.read())
 
 r1 = []
