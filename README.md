@@ -32,4 +32,11 @@ update: 2017-02-12
 分析指定知乎用户的关注者情况
 
 
+## zhihu_img
+
+update: 2017-02-13
+
+抓取制定知乎用户 followee 的头像
+
+
 ![The North](https://cl.ly/3E2J413r2s1T/idea1.svg)
