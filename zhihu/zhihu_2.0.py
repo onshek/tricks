@@ -8,14 +8,16 @@ import zhihuapi as api
 # 配置 cookie
 def set_cookie():
     if os.path.isfile('cookie'):
-        print('cookie 已配置完成')
+        print('cookie 已存在')
     else:
         cookie_content = input('请输入你的 cookie \n>  ')
         with open('cookie', 'w') as f: 
             f.write(cookie_content)
-     
+        print('cookie 已保存')
+
     with open('cookie') as f:
         api.cookie(f.read())
+    print('cookie 已配置完成')
 
 
 r1 = []
