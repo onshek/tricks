@@ -10,9 +10,9 @@ def set_cookie():
     if os.path.isfile('cookie'):
         print('cookie 已存在')
     else:
-        print('由于 terminal 本身对输入内容长度的限制')
-        cookie_content1 = input('请先输入你的 cookie 的前一半\n>  ')
-        cookie_content2 = input('请再输入你的 cookie 的后一半\n>  ')
+        print('由于 Terminal 本身对输入内容长度的限制')
+        cookie_content1 = input('请先输入 cookie 的前一半\n>  ')
+        cookie_content2 = input('请继续输入 cookie 的后一半\n>  ')
         cookie_content = cookie_content1 + cookie_content2
         with open('cookie', 'w') as f: 
             f.write(cookie_content)
