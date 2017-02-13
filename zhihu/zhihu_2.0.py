@@ -1,13 +1,27 @@
 __author__ = 'ipreacher'
 
+
+import os
 import zhihuapi as api
 
-with open('cookie') as f:
-    api.cookie(f.read())
+
+# 配置 cookie
+def set_cookie():
+    if os.path.isfile('cookie'):
+        print('cookie 已配置完成')
+    else:
+        cookie_content = input('请输入你的 cookie \n>  ')
+        with open('cookie', 'w') as f: 
+            f.write(cookie_content)
+     
+    with open('cookie') as f:
+        api.cookie(f.read())
+
 
 r1 = []
 r2 = []
 r5 = []
+
 
 # 拉取关注者的昵称和个性域名，page 根据自己关注者页数确定
 def followers(me, page):
@@ -17,15 +31,15 @@ def followers(me, page):
             r1.append(data[j]['name'])    # 关注者的昵称
             r2.append(data[j]['url_token'])    # 关注者的个性域名
 
+
 # 分行打印关注者的昵称和个性域名
 def show(r):
     for k in range(len(r1)):
         s = (r[k] + '\n')
         print(s)
 
+
 # 拉取并打印关注者的基本信息，包括序号及其个性域名、昵称、赞同数、感谢数、关注人数
-
-
 def ff():
     print('关注者基本信息的格式为' + '\n' + '[序号, 个性域名, 昵称, 赞同数, 感谢数, 关注者人数]')
     for i in range(len(r2)):
@@ -35,15 +49,17 @@ def ff():
         print(r4)
     #print(r5)
 
+
 # 将关注者的基本信息保存为 txt 文件 
 def txt(r):
-    f = open('r.txt','w')
-    f.write(str(r))
-    f.close()
+    with open('r.txt','w') as f: 
+        f.write(str(r))
+
 
 if __name__ == '__main__':
-    me = input('请输入你的个性域名\n>  ')
-    page = int(input('请输入你的关注者页数\n>  '))
+    set_cookie()
+    me = input('请输入你的个性域名 \n>  ')
+    page = int(input('请输入你的关注者页数 \n>  '))
     followers(me, page)
     #show(r1)
     #show(r2)
