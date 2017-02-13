@@ -1,5 +1,5 @@
 # Introduction
-build the site: 2017-02-10
+build the repository: 2017-02-10
 
 这里放一些 Python 方面的小东西。
 
