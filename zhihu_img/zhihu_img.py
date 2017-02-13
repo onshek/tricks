@@ -42,16 +42,25 @@ def followees(me, page):
             r3.append(data[j]['avatar_url'])    # 关注者头像的地址
 
 
+# 创建文件夹
+def folder():
+    if os.path.exists('zhihu_img'):
+        print('文件夹已存在')
+    else:
+        os.mkdir('zhihu_img')
+        print('文件夹已建立')
+
+
 # 获取 followee 头像并保存到本地
 def save():
     for i in range(len(r3)):
         try:
-            print('正在保存 ' + str(r3[i]) + ' 的头像到本地')
+            print('正在保存_' + str(r1[i]) + '_的头像到本地')
             filename = str(i) + '_' + str(r1[i]) + '.jpg'
             url = r3[i]
             web = urllib.request.urlopen(url)
             data = web.read()
-            with open('zhihu/' + filename, 'wb') as f:
+            with open('zhihu_img/' + filename, 'wb') as f:
                 f.write(data)
         except KeyboardInterrupt:
             break
@@ -61,6 +70,7 @@ if __name__ == '__main__':
     set_cookie()
     me = input('请输入个性域名 \n>  ')
     page = int(input('请输入 followee 页数 \n>  '))
+    folder()
     followees(me, page)
     save()
 
