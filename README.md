@@ -2,7 +2,8 @@
 build the site: 2017-02-10
 
 这里放一些 Python 方面的小东西。
-如果觉得这些对你有帮助，不妨通过 [微信](http://ol5pvu2w5.bkt.clouddn.com/wechat.JPG) 或 [支付宝](http://ol5pvu2w5.bkt.clouddn.com/Alipay.JPG) 对我捐助。
+
+如果这些对你有帮助，不妨通过 [微信](http://ol5pvu2w5.bkt.clouddn.com/wechat.JPG) 或 [支付宝](http://ol5pvu2w5.bkt.clouddn.com/Alipay.JPG) 对我捐助。
 
 
 ## add_my_site
