@@ -52,13 +52,12 @@ def hash_id():
 # 群发私信
 def send_msg():
     for i in range(len(r5)):
-        print(str(r5[i][0]))
+        print('正在向_' + str(r1[i]) + '_发送私信...')
         api.action.message(str(r5[i][0]), 'Hi, %s!\n'
                                         'Thanks for your following~\n'
                                         #'Happy Valentine\'s Day!\n'
                                         '[This message is sent by https://github.com/ipreacher/tricks/tree/master/zhihu_msg]'
-                                        % str(r1[i][0]))
-        print('正在向_' + str(r1[i][0]) + '_发送私信...')
+                                        % str(r1[i]))
     print('私信已群发完毕！\n'
         '更多有意思的小玩意，请戳---->\n'
         '[https://github.com/ipreacher/tricks]')
