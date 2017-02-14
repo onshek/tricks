@@ -50,5 +50,5 @@ update: 2017-02-14
 
 
 
-![The North](https://github.com/ipreacher/tricks/blob/master/svg/works.svg)
-#![The North](https://cl.ly/3E2J413r2s1T/idea1.svg)
+![The North](tricks/svg/works.svg)
+![The North](https://cl.ly/3E2J413r2s1T/idea1.svg)
