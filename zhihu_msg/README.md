@@ -4,3 +4,5 @@
 
 * 使用 [zhihu API](https://github.com/syaning/zhihuapi-py)，第一次使用前需配置 cookie
 * 每次发送建议不超过 10 封私信，否则会被知乎暂时拉黑
+
+![screenshot](tricks/zhihu_msg/zhihu_msg.PNG)
