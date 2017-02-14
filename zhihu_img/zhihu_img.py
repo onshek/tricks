@@ -34,12 +34,13 @@ r3 = []
 
 # 拉取 followee 名单，page 根据名单页数确定
 def followees(me, page):
+    print('正在获取 followee 名单...')
     for i in range(page):    
         data = api.user(me).followees(offset=(20 * i))
         for j in range(len(data)):
             r1.append(data[j]['name'])    # 关注者的昵称
             r2.append(data[j]['url_token'])    # 关注者的个性域名
-            r3.append(data[j]['avatar_url'])    # 关注者头像的地址
+            r3.append(data[j]['avatar_url_template'][: 11] + '3'+ data[j]['avatar_url_template'][12: - 10] + 'xll.jpg')    # 关注者头像的地址
 
 
 # 创建文件夹
@@ -55,15 +56,15 @@ def folder():
 def save():
     for i in range(len(r3)):
         try:
-            print('正在保存_' + str(r1[i]) + '_的头像到本地')
+            print('正在保存_' + str(r1[i]) + '_的头像到本地...')
             filename = str(i) + '_' + str(r1[i]) + '.jpg'
             url = r3[i]
             web = urllib.request.urlopen(url)
             data = web.read()
             with open('zhihu_img/' + filename, 'wb') as f:
                 f.write(data)
-        except KeyboardInterrupt:
-            break
+        except urllib.error.HTTPError:
+            pass
 
 
 if __name__ == '__main__':
