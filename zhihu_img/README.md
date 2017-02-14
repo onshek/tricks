@@ -11,3 +11,5 @@ update: 2017-02-13
 待解决问题
 
 * ~~保存图片分辨率过低~~
+
+![screenshot](https://github.com/ipreacher/tricks/blob/master/zhihu_img/Screen_Shot_zhihu_img.png)
