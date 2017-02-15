@@ -7,4 +7,4 @@
 python3 data_flow.py
 ```
 
-[![data_flow 录频](http://ol5pvu2w5.bkt.clouddn.com/data_flow.png)[data_flow 录频](http://ol5pvu2w5.bkt.clouddn.com/data_flow.mov)]
+[![data_flow 录频](http://ol5pvu2w5.bkt.clouddn.com/data_flow.png)](http://ol5pvu2w5.bkt.clouddn.com/data_flow.mov)
