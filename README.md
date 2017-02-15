@@ -51,6 +51,8 @@ update: 2017-02-14
 
 ## [Stock_WeChat](https://github.com/ipreacher/tricks/tree/master/Stock_WeChat)
 
+update: 2017-02-15
+
 微信股价提示
 
 
