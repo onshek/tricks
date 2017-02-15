@@ -1,8 +1,8 @@
 # Introduction
 * build the repository: 2017-02-10
-* 这里放一些 Python 方面的小东西。
+* 这里放一些 Python 方面的小东西
 
-* 如果这些对你有帮助，不妨通过 [微信](http://ol5pvu2w5.bkt.clouddn.com/wechat.JPG) 或 [支付宝](http://ol5pvu2w5.bkt.clouddn.com/Alipay.JPG) 对我捐助。
+* 如果这些对你有帮助，不妨通过 [微信](http://ol5pvu2w5.bkt.clouddn.com/wechat.JPG) 或 [支付宝](http://ol5pvu2w5.bkt.clouddn.com/Alipay.JPG) 对我捐助
 
 # Comments
 * 任何问题或者建议都可以在 [Issues](https://github.com/ipreacher/tricks/issues) 中与我讨论
@@ -44,5 +44,9 @@
 * update: 2017-02-15
 * 微信股价提示
 
+
+＃# [data_flow](https://github.com/ipreacher/tricks/tree/master/data_flow)
+* update: 2017-02-15
+*假装有很厉害的数据流
 
 ![The North](https://cl.ly/3E2J413r2s1T/idea1.svg)

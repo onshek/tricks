@@ -20,7 +20,7 @@ def login():
     itchat.auto_login()
 
 
-# 获取股价并发提醒
+# 获取股价并发送提醒
 def stock():
     time = datetime.datetime.now()    # 获取当前时间
     now = time.strftime('%H:%M:%S') 
@@ -42,7 +42,7 @@ def stock():
         print('价格正常')
 
 
-
+# 每 3 秒循环执行
 if __name__ == '__main__':
     login()
     while True:   
