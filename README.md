@@ -49,5 +49,9 @@ update: 2017-02-14
 给自己的关注者群发知乎私信
 
 
+## [Stock_WeChat](https://github.com/ipreacher/tricks/tree/master/Stock_WeChat)
+
+微信股价提示
+
 
 ![The North](https://cl.ly/3E2J413r2s1T/idea1.svg)
