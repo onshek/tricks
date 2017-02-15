@@ -7,4 +7,4 @@
 python3 data_flow.py
 ```
 
-[data_flow 录频](http://stackoverflow.com/questions/4279611/how-to-embed-a-video-into-github-readme-md)
+[data_flow 录频](http://ol5pvu2w5.bkt.clouddn.com/data_flow.mov)
