@@ -37,3 +37,5 @@ python3 Stock_WeChat_timer.py
 ![Screen_Shot_Stock_WeChat_1](https://github.com/ipreacher/tricks/blob/master/Stock_WeChat/Screen_Shot_Stock_WeChat_1.png)
 
 ![Screen_Shot_Stock_WeChat_2](https://github.com/ipreacher/tricks/blob/master/Stock_WeChat/Screen_Shot_Stock_WeChat_2.png)
+
+![Screen_Shot_Stock_WeChat_3](https://github.com/ipreacher/tricks/blob/master/Stock_WeChat/Screen_Shot_spyder_python3.6.png)

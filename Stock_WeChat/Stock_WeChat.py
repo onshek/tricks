@@ -58,4 +58,3 @@ if __name__ == '__main__':
                 '更多有意思的小玩意，请戳---->\n'
                 '[https://github.com/ipreacher/tricks]')
             break
-
