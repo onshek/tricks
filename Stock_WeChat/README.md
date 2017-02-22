@@ -1,8 +1,7 @@
 # Stock_WeChat
 
-============================
-最新版本已更新至 [Stock_WeChat](https://github.com/ipreacher/Stock_WeChat)
-============================
+# 最新版本已更新至 [Stock_WeChat](https://github.com/ipreacher/Stock_WeChat)
+
 
 微信股价提示
 
