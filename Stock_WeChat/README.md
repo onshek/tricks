@@ -1,5 +1,9 @@
 # Stock_WeChat
 
+============================
+最新版本已更新至 [Stock_WeChat](https://github.com/ipreacher/Stock_WeChat)
+============================
+
 微信股价提示
 
 * 据此操作的一切交易后果与本人无关，但如果这些对你有帮助，不妨通过 [微信](http://ol5pvu2w5.bkt.clouddn.com/wechat.JPG) 或 [支付宝](http://ol5pvu2w5.bkt.clouddn.com/Alipay.JPG) 对我捐助
