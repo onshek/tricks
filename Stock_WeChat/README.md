@@ -1,6 +1,5 @@
 # Stock_WeChat
-
-# 最新版本已更新至 [Stock_WeChat](https://github.com/ipreacher/Stock_WeChat)
+最新版本已更新至 [Stock_WeChat](https://github.com/ipreacher/Stock_WeChat)
 
 
 微信股价提示
@@ -33,7 +32,7 @@ python3 Stock_WeChat_timer.py
 
 * 对输入部分做严格检验
 
-* 设置多支股票同时提示
+* ~~设置多支股票同时提示~~
 
 * 重新构建 `Stock_WeChat_timer.py`
 
