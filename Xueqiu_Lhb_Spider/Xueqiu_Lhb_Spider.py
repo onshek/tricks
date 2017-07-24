@@ -1,3 +1,4 @@
+__author__ = 'ipreacher'
 
 import requests
 import json
@@ -28,7 +29,9 @@ DataFrame_1.is_copy = False
 
 for i in range(len(DataFrame.index)):
 	for key in DataFrame.ix[i][2]:
-		DataFrame_1.loc[i, key] = DataFrame.ix[i][2][key]
+		DataFrame_1.loc[i, 'tqQtBizunittrdinfo_' + key] = DataFrame.ix[i][2][key]
+	for key in DataFrame.ix[i][3]:
+		DataFrame_1.loc[i, 'tqQtSkdailyprice_' + key] = DataFrame.ix[i][3][key]	
+
 
 print(DataFrame_1)
-
