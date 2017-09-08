@@ -2,12 +2,12 @@
 * build the repository: 2017-02-10
 * 这里放一些 Python 方面的小东西
 
-* 如果这些对你有帮助，不妨通过 [微信](http://ol5pvu2w5.bkt.clouddn.com/wechat.JPG) 或 [支付宝](http://ol5pvu2w5.bkt.clouddn.com/Alipay.JPG) 对我捐助
+* 如果这些对你有帮助，欢迎请我喝咖啡，[请随意](https://ipreacher.github.io/donate/)
 
 # Comments
-* 任何问题或者建议都可以在 [Issues](https://github.com/ipreacher/tricks/issues) 中与我讨论
-* 通过 [知乎](https://www.zhihu.com/people/ipreacher) 私信或加我 [微信](https://github.com/ipreacher/tricks/blob/master/document/WeChat.JPG
-) 与我联系
+* 有关于该合集的任何问题，欢迎提出 [Issue](https://github.com/ipreacher/tricks/issues)，也欢迎在知乎[与我交流](https://www.zhihu.com/people/ipreacher/activities)
+
+* 我的个人微信公众号为 [iAmaze](https://ipreacher.github.io/iAmaze/)，详情见[《【创刊号】是因为还有那么一点在乎，才执著这段旅途》](https://ipreacher.github.io/2017/initialIssue/)
 
 
 ## [add_my_site](https://github.com/ipreacher/tricks/tree/master/add_my_site)
