@@ -53,5 +53,17 @@
 * update: 2017-07-24
 * 雪球龙虎榜爬虫
 
+## [download_ins](https://github.com/ipreacher/tricks/tree/master/download_ins)
+* update: 2017-07-24
+* ins 爬虫（未验证可用否）
+
+## [QQBot](https://github.com/ipreacher/tricks/tree/master/QQBot)
+* update: 2017-08-13
+* 用于传送实时莱特币行情的 QQ 机器人（行情接口已废弃）
+
+## [funds](https://github.com/ipreacher/tricks/tree/master/funds)
+* update: 2018-01-03
+* 天天基金爬虫
+
 ![The North](https://cl.ly/3E2J413r2s1T/idea1.svg)
 
