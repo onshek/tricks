@@ -37,7 +37,7 @@
 
 ## [zhihu_msg](https://github.com/ipreacher/tricks/tree/master/zhihu_msg)
 * update: 2017-02-14
-* 给自己的关注者群发知乎私信
+* ～～给自己的关注者群发知乎私信～～（原私信已废弃，新接口见 [zhihu_msg2](https://github.com/ipreacher/tricks/tree/master/zhihu_msg2)）
 
 
 ## [Stock_WeChat](https://github.com/ipreacher/tricks/tree/master/Stock_WeChat)
@@ -59,11 +59,15 @@
 
 ## [QQBot](https://github.com/ipreacher/tricks/tree/master/QQBot)
 * update: 2017-08-13
-* 用于传送实时莱特币行情的 QQ 机器人（行情接口已废弃）
+* ～～用于传送实时莱特币行情的 QQ 机器人～～（行情接口已废弃）
 
 ## [funds](https://github.com/ipreacher/tricks/tree/master/funds)
 * update: 2018-01-03
 * 天天基金爬虫
+
+## [zhihu_msg2](https://github.com/ipreacher/tricks/tree/master/zhihu_msg2)
+* update: 2018-01-04
+* 给自己的关注者群发知乎私信
 
 ![The North](https://cl.ly/3E2J413r2s1T/idea1.svg)
 
