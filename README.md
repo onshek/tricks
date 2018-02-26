@@ -8,7 +8,7 @@
 * 我的个人微信公众号为 [iAmaze](https://ipreacher.github.io/iAmaze/)，详情见[《【创刊号】是因为还有那么一点在乎，才执著这段旅途》](https://ipreacher.github.io/2017/initialIssue/)
 
 # Donations
-* All donations are welcome and greatly appreciated.
+* All donations are welcome and greatly appreciated
 * 如果这些对你有帮助，欢迎请我喝咖啡，[请随意](https://ipreacher.github.io/donate/)
 
 ## [add_my_site](https://github.com/ipreacher/tricks/tree/master/add_my_site)
