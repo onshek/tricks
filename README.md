@@ -69,5 +69,4 @@
 * update: 2018-01-04
 * 给自己的关注者群发知乎私信
 
-![The North](https://cl.ly/3E2J413r2s1T/idea1.svg)
-
+[![The North](https://cl.ly/3E2J413r2s1T/idea1.svg)](https://ipreacher.github.io/)
